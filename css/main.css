@@ -1,0 +1,124 @@
+/***** BASE STYLES *****/
+
+body {
+
+    font-family: 'Didact Gothic', sans-serif;
+    background-image: url("../img/gradient.png");
+}
+
+#home, #work, #branding, #graphics, #contact {
+  height: 800px;
+}
+
+h1 {
+  font-size: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+p {
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/****** NAVIGATION BAR *****/
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  opacity: 25%;
+  position: fixed; /* Sets the navbar to fixed position */
+  top: 0; /* Positions navbar at top of page */
+  padding-left: 260px; /* Starts navbar in line with content */
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  padding: 15px 120px 15px 0;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1400px;
+  height: 800px;
+  padding: 0 160px;
+}
+
+.half-width {
+  width: 540px;
+  height: 800px;
+  padding-left: 50px;
+  padding-right: 50px;
+  float: left;
+}
+
+/***** HOME *****/
+
+#home img {
+  padding: 270px 0 0 130px
+}
+
+#home h1 {
+  padding-top: 180px;
+}
+
+/***** WORK *****/
+
+#work img {
+  padding: 170px 0 0 50px;
+}
+
+#work h2 {
+  padding-top: 220px;
+}
+
+/***** BRANDING *****/
+
+#branding img {
+  padding: 165px 0 0 40px;
+}
+
+#branding h2 {
+  padding-top: 240px;
+}
+
+/***** GRAPHICS *****/
+
+#graphics img {
+  padding: 188px 0 0 50px;
+}
+
+#graphics h2 {
+  padding-top: 300px;
+}
+
+/***** CONTACT *****/
+
+#contact h2 {
+  padding-top: 260px;
+}
+
+a[href^="mailto:"] {
+  padding-left: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+#contact img {
+  padding: 10px 0 0 50px;
+}
